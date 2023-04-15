@@ -17,7 +17,7 @@ main()
         if (c == ' ' || c == '\n' || c == '\t')
             state = OUT;
         if (state == OUT) {
-            state = IN;
+            state = IN; 
             ++nw;
         }
     }
